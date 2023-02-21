@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+            body{
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                overflow: hidden;
+            }
+          .graph-container {
+  display: flex;
+  flex-direction: column; 
+}
+
+.graph-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.bar {
+  height: 30px;
+  margin-right: 10px;
+  padding-right: 20px;
+border-radius: 5px;
+font-size: 1.2em;
+}
+
+.label {
+  margin-right: 10px;
+  text-align: right;
+  min-width: 100px;
+  font-family: monospace;
+  font-size: 1.2em;
+}
+.bar_green{
+    display: flex;
+    align-items: center;
+}
+.bar_green > div{
+    margin-left: 5px;
+}
+        </style>
+</head>
+<body>
+<div id="graph-container"></div>
+    <script src="./array.js"></script>
+</body>
+</html>
